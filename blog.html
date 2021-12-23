@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/blog-style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="images/logo.jpg"></a>
+        <div class="nav-links font2" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="careers.html">CAREERS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()"> </i>
+    </nav>
+    <hr>
+
+
+
+
+
+
+
+
+    <!-- <nav class="navigation max-width-1 m-auto">
+         <div class="nav-left">
+            <span>LogoHere</span>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+           
+            </ul>
+        </div>
+        <div class="nav-right">
+            <input class="form-input" type="text" placeholder="Article Search">
+            <button class="btn">Search</button>
+        </div>
+    </nav> -->
+    <div class="max-width-1 m-auto"><hr size="2" color="black" noshade=""></div>
+    <div class="content max-width-1 m-auto my-2">
+        <div class="content-left">
+            <h1>Welcome to Entangle Software Company's blogging page!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id recusandae quibusdam odit fuga ipsam corporis culpa rem blanditiis quisquam itaque. Distinctio modi fugiat harum placeat quaerat voluptas nulla suscipit asperiores ea. Fugiat id eos suscipit! Ipsum itaque corrupti id culpa aliquid asperiores, quae exercitationem aliquam illum quia ipsam, cum praesentium, libero eum iusto deserunt perferendis officia similique beatae at ea architecto sequi. Enim, dolore, quam autem eaque esse architecto doloribus, neque rem magnam illum repellendus accusamus provident. Consectetur amet, architecto iste necessitatibus corrupti explicabo. Voluptatibus, ea deserunt, velit quae rerum amet cumque, corporis itaque dolore vel nam facere ipsum architecto. 
+                 </p>
+
+        </div>
+        <div class="content-right">
+                <img src="images/img1.jpg" alt="blogging image">
+        </div>
+
+
+    </div>
+    <div class="max-width-1 m-auto"><hr size="2" color="black" noshade=""></div>
+    <div class="home-articles max-width-1 m-auto font2">
+        <h2>Featured Articles:</h2>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="images/img2.jpg">
+            </div>
+              
+            <div class="home-article-content" font1>
+               <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+               <span>Author Name</span>
+               <span>9 December | 6 min read</span>
+            </div> 
+
+    </div>
+      
+    <div class="home-article">
+        <div class="home-article-img">
+            <img src="images/img3.jpg">
+        </div>
+          
+        <div class="home-article-content" font1>
+           <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+           <span>Author Name</span>
+           <span>8 December | 7 min read</span>
+        </div> 
+
+</div><div class="home-article">
+    <div class="home-article-img">
+        <img src="images/img2.jpg">
+    </div>
+      
+    <div class="home-article-content" font1>
+       <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+       <span>Author Name</span>
+       <span>6 December | 10 min read</span>
+    </div> 
+
+</div>
+    </div>
+
+    <hr>
+    <section class="footer font2">
+        <div class="container">
+            <div class="foot-row">
+                <div class="foot-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                       <li><i class="fas fa-map-marker-alt"></i> address, city, INDIA</li>
+                       <li><i class="fas fa-phone-alt"></i> +91 0000-000-000</li>
+                       <li><i class="fas fa-envelope"></i> contact@gmail.com</li>
+                       <li><i class="fas fa-clock"></i> Mon-Fri 8:00 AM to 5:00 PM</li>
+
+                   </ul>
+                   
+                </div>
+                <div class="foot-col">
+                   <h4>Connect</h4>
+                   <div class="social-links">
+                       <a href="#"><i class="fab fa-facebook-f"></i></a>
+                       <a href="#"><i class="fab fa-twitter"></i></a>
+                       <a href="#"><i class="fab fa-instagram"></i></a>
+                       <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                       <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+               </div>
+               <div class="foot-col">
+                   <h4>Company</h4>
+                   <ul>
+                       <li><a href="#">About</a></li>
+                       <li><a href="#">Our Services</a></li>
+                       <li><a href="#">Terms &Conditions</a></li>
+                       <li><a href="#">Privacy Policies</a></li>
+
+                   </ul>
+            </div>
+        </div>
+        <div class="copyright">
+           &copy;Entangle_software_private_limited | All right reserved.
+       </div>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
